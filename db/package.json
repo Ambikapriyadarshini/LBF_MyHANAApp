@@ -1,0 +1,12 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "DB module for HDI deployment",
+  "dependencies": {
+    "@sap/hdi-deploy": "^5.2.3",
+    "@sap/hana-client": "^2"
+  },
+  "scripts": {
+    "start": "node node_modules/@sap/hdi-deploy/deploy.js"
+  }
+}
